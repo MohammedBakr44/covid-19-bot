@@ -1,1 +1,1 @@
-worker: python3 covid.py
+worker: python covid.py
