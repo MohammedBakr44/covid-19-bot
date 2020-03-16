@@ -2,6 +2,7 @@ import discord
 import json
 import urllib
 import asyncio
+import time
 
 # Reads first line of token.txt and return it to get the token
 def read_token():
@@ -52,7 +53,7 @@ async def corona_world():
 # Display data for Egypt
 async def corona_eg():
   await client.wait_until_ready()
-  
+
   while not client.is_closed():
       channel = client.get_channel(CHANNEL_ID)
       """" I had to use another API; the first one has the code for Egypt as EG and it's written like this in the link
