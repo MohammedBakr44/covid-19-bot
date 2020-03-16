@@ -13,7 +13,7 @@ def read_token():
 
 TOKEN = read_token()
 # Client ID, put yours
-CHANNEL_ID = 688984938783047696
+CHANNEL_ID = 688989200472735759
 
 client = discord.Client()
 
